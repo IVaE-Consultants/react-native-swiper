@@ -96,7 +96,7 @@ let styles = StyleSheet.create({
   },
 })
 
-export default React.createClass({
+let Swiper = React.createClass({
 
   /**
    * Props Validation
@@ -501,4 +501,7 @@ export default React.createClass({
       </View>
     )
   }
-})
+});
+
+module.exports = Swiper;
+

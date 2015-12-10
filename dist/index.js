@@ -13,10 +13,6 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 // the component is unmounted, you risk the callback
 // throwing an exception.
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
 var _reactNative = require('react-native');
 
 var _reactNative2 = _interopRequireDefault(_reactNative);
@@ -107,8 +103,8 @@ var styles = _reactNative.StyleSheet.create({
   }
 });
 
-exports.default = _reactNative2.default.createClass({
-  displayName: 'src',
+var Swiper = _reactNative2.default.createClass({
+  displayName: 'Swiper',
 
   /**
    * Props Validation
@@ -526,3 +522,5 @@ exports.default = _reactNative2.default.createClass({
     );
   }
 });
+
+module.exports = Swiper;
